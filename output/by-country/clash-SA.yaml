@@ -5,18 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe
-  server: 209.38.196.126
+  server: 130.17.27.204
   port: 443
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
   servername: cdn8848.776676.xyz
-  skip-cert-verify: false
+  skip-cert-verify: true
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /torrent/ads/source?ed=2560
+    path: /player/shop?ed=2560
     headers:
       Host: cdn8848.776676.xyz
 - name: 🇸🇦 沙特 (Saudi Arabia) 02 - xiaohe

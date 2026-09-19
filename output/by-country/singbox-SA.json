@@ -6,13 +6,13 @@
     {
       "type": "vless",
       "tag": "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe",
-      "server": "209.38.196.126",
+      "server": "130.17.27.204",
       "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
         "server_name": "cdn8848.776676.xyz",
-        "insecure": false,
+        "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,7 +20,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/torrent/ads/source?ed=2560",
+        "path": "/player/shop?ed=2560",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
