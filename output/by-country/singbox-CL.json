@@ -5,41 +5,41 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe",
-      "server": "34.18.31.5",
+      "tag": "🇨🇱 智利 (Chile) 01 - xiaohe",
+      "server": "34.176.137.90",
       "server_port": 443,
-      "uuid": "bd82d5e7-4395-40e1-b34e-2974eb0c8555",
+      "uuid": "ad5325f8-f0b3-41c4-a561-113529b60e70",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ZRWl48Ahw4vlnPSTMkNs6xcCEDd9Qq4AsChUp-mg7A4",
-          "short_id": "9c8748aa3f7d4219"
+          "public_key": "HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc",
+          "short_id": "2c2d919f5183d0b7"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇶🇦 卡塔尔 (Qatar) 02 - xiaohe",
-      "server": "34.18.212.19",
+      "tag": "🇨🇱 智利 (Chile) 02 - xiaohe",
+      "server": "34.176.98.128",
       "server_port": 443,
-      "uuid": "b6f775c2-70fd-4247-8d12-82cac46fdd50",
+      "uuid": "4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "tT6wEOh8ASizQYNRb51QdDlxAksSJbEaBnbQBajc6SQ",
-          "short_id": "c5426331173ca15c"
+          "public_key": "3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw",
+          "short_id": "d7676b6a468a03b3"
         }
       }
     },
@@ -48,16 +48,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe",
-        "🇶🇦 卡塔尔 (Qatar) 02 - xiaohe"
+        "🇨🇱 智利 (Chile) 01 - xiaohe",
+        "🇨🇱 智利 (Chile) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe",
-        "🇶🇦 卡塔尔 (Qatar) 02 - xiaohe"
+        "🇨🇱 智利 (Chile) 01 - xiaohe",
+        "🇨🇱 智利 (Chile) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
