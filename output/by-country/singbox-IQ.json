@@ -5,15 +5,18 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
-      "server": "support.zoom.us",
-      "server_port": 80,
-      "uuid": "684f9a2e-4f96-497f-bfd9-ff1e34637952",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "188.114.97.6",
+      "server_port": 8080,
+      "uuid": "934f2038-17f8-4ec5-9204-8381e19fc6e3",
       "transport": {
         "type": "ws",
+        "path": "/eyJqdW5rIjoiVXFEMlhKZVY4dzNoTUtpZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
         "headers": {
-          "Host": "free.sahanwickramasinghe.me"
-        }
+          "Host": "tight-bush-0bb4.bshxyyxhdjdggb.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
@@ -21,14 +24,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
