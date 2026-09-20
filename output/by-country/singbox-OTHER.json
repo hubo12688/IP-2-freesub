@@ -4,17 +4,99 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
+      "server": "www.shopify.com",
+      "server_port": 443,
+      "uuid": "3aa71202-a099-49c1-99fc-6662f3335369",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "yoga-suggesting-recording-calls.trycloudflare.com",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/sync",
+        "path": "/3aa71202-a099-49c1-99fc-6662f3335369-vm",
         "headers": {
-          "Host": "khoda.ak-khoda.workers.dev"
+          "Host": "yoga-suggesting-recording-calls.trycloudflare.com"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
+      "server": "www.shopify.com",
+      "server_port": 443,
+      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "guanwang.awsno.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hls/cctv5phd.m3u8",
+        "headers": {
+          "Host": "guanwang.awsno.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
+      "server": "www.shopify.com",
+      "server_port": 443,
+      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "guanwang.awsno.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hls/cctv5phd.m3u8",
+        "headers": {
+          "Host": "guanwang.awsno.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
+      "server": "www.shopify.com",
+      "server_port": 443,
+      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "guanwang.awsno.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hls/cctv5phd.m3u8",
+        "headers": {
+          "Host": "guanwang.awsno.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
+      "server": "ccs2g.pai50288.uk",
+      "server_port": 443,
+      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccs2g.pai50288.uk",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pai50288"
       }
     },
     {
@@ -22,14 +104,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe",
+        "🌐 其他地区 (Other) 02 - xiaohe",
+        "🌐 其他地区 (Other) 03 - xiaohe",
+        "🌐 其他地区 (Other) 04 - xiaohe",
+        "🌐 其他地区 (Other) 05 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe",
+        "🌐 其他地区 (Other) 02 - xiaohe",
+        "🌐 其他地区 (Other) 03 - xiaohe",
+        "🌐 其他地区 (Other) 04 - xiaohe",
+        "🌐 其他地区 (Other) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

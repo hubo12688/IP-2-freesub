@@ -5,35 +5,45 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 188.114.97.6
+  server: 172.67.166.127
   port: 443
   udp: true
   type: vless
-  uuid: bd8c736e-cae1-43d7-b573-9672e6ca4989
+  uuid: 709b1cf4-a386-4cbf-bcf4-46f03c4788a8
   tls: true
-  servername: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
+  servername: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vl/zXLTmz3hE3szn64f
+    path: /vl/R8rJikWcqERiCZEXnKF8AOOhkGkJ?ed=2560
     headers:
-      Host: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
+      Host: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 188.114.98.134
+  server: www.speedtest.net
   port: 443
   udp: true
   type: vless
-  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  uuid: 709b1cf4-a386-4cbf-bcf4-46f03c4788a8
   tls: true
-  servername: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+  servername: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /vl/trUydYgvH0rYux5ihp4zgZjo4RYK412?ed=2560
     headers:
-      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+      Host: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
 - name: 🇨🇿 捷克 (Czech) 03 - xiaohe
+  server: 153.76.185.84
+  port: 3090
+  udp: true
+  type: vless
+  uuid: 995b4d19-8c0d-4f81-a199-35a4f1d7744e
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 04 - xiaohe
   server: 95.85.230.35
   port: 443
   udp: true
@@ -53,6 +63,7 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
   - 🇨🇿 捷克 (Czech) 03 - xiaohe
+  - 🇨🇿 捷克 (Czech) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -61,5 +72,6 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
   - 🇨🇿 捷克 (Czech) 03 - xiaohe
+  - 🇨🇿 捷克 (Czech) 04 - xiaohe
 rules:
 - MATCH,PROXIES
