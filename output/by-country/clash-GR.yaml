@@ -25,7 +25,22 @@ proxies:
     public-key: biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4
     short-id: 94acb54627612d43
   servername: www.cloudflare.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
+- name: 🇬🇷 希腊 (Greece) 03 - xiaohe
+  server: 91.186.218.227
+  port: 4443
+  udp: true
+  type: vless
+  uuid: c4aba2a4-ce37-4133-a3bb-7fe23a21ea95
+  tls: true
+  servername: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: safari
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -33,6 +48,7 @@ proxy-groups:
   - AUTO
   - 🇬🇷 希腊 (Greece) 01 - xiaohe
   - 🇬🇷 希腊 (Greece) 02 - xiaohe
+  - 🇬🇷 希腊 (Greece) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -40,5 +56,6 @@ proxy-groups:
   proxies:
   - 🇬🇷 希腊 (Greece) 01 - xiaohe
   - 🇬🇷 希腊 (Greece) 02 - xiaohe
+  - 🇬🇷 希腊 (Greece) 03 - xiaohe
 rules:
 - MATCH,PROXIES

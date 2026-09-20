@@ -10,16 +10,24 @@
       "server_port": 443,
       "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "neth9.lunariai.ru"
+        }
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
-      "server": "213.183.63.60",
-      "server_port": 9085,
-      "method": "aes-256-cfb",
-      "password": "9ej82EKe2gq7gLAM"
+      "server": "192.145.31.5",
+      "server_port": 8443,
+      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
+      "tls": {
+        "enabled": true,
+        "server_name": "neth9.lunariai.ru",
+        "insecure": false
+      }
     },
     {
       "type": "vless",
@@ -45,7 +53,7 @@
     {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe",
-      "server": "131.123.41.18",
+      "server": "131.123.39.29",
       "server_port": 8081,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
       "transport": {
@@ -56,48 +64,29 @@
     {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe",
-      "server": "131.123.39.29",
-      "server_port": 443,
+      "server": "131.123.41.31",
+      "server_port": 8081,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sheetpeek.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo",
-          "short_id": "84be686ea1d16478"
-        }
+      "transport": {
+        "type": "ws",
+        "path": "/vless-test"
       }
     },
     {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe",
-      "server": "192.145.31.5",
-      "server_port": 8443,
-      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
-      "tls": {
-        "enabled": true,
-        "server_name": "neth9.lunariai.ru",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
+      "server": "131.123.41.18",
+      "server_port": 8081,
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-test"
       }
     },
     {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe",
-      "server": "131.123.41.31",
+      "server": "131.123.41.177",
       "server_port": 8081,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
       "transport": {
@@ -119,17 +108,6 @@
     {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
-      "server": "131.123.39.29",
-      "server_port": 8081,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "transport": {
-        "type": "ws",
-        "path": "/vless-test"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe",
       "server": "131.123.41.18",
       "server_port": 443,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
@@ -150,8 +128,52 @@
     },
     {
       "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe",
+      "server": "131.123.39.29",
+      "server_port": 443,
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "sheetpeek.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo",
+          "short_id": "84be686ea1d16478"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe",
-      "server": "prep.wwwinternetvideo.click",
+      "server": "154.83.2.110",
+      "server_port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-4beea30ea96c",
+      "tls": {
+        "enabled": true,
+        "server_name": "4cz9gseouyns.2iz1ile4upks.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/stream/PANEL_ZEUS/4beea30ea96c/loc-0",
+        "headers": {
+          "Host": "4cz9gseouyns.2iz1ile4upks.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe",
+      "server": "144.31.50.236",
       "server_port": 443,
       "uuid": "1c332eae-7e02-4acd-996d-4eb3e652401c",
       "flow": "xtls-rprx-vision",
@@ -160,7 +182,7 @@
         "server_name": "yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -184,7 +206,8 @@
         "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe"
       ]
     },
     {
@@ -201,7 +224,8 @@
         "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
