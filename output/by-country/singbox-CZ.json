@@ -6,61 +6,9 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "172.67.166.127",
-      "server_port": 443,
-      "uuid": "709b1cf4-a386-4cbf-bcf4-46f03c4788a8",
-      "tls": {
-        "enabled": true,
-        "server_name": "q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/R8rJikWcqERiCZEXnKF8AOOhkGkJ?ed=2560",
-        "headers": {
-          "Host": "q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "709b1cf4-a386-4cbf-bcf4-46f03c4788a8",
-      "tls": {
-        "enabled": true,
-        "server_name": "q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/trUydYgvH0rYux5ihp4zgZjo4RYK412?ed=2560",
-        "headers": {
-          "Host": "q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 03 - xiaohe",
-      "server": "153.76.185.84",
-      "server_port": 3090,
-      "uuid": "995b4d19-8c0d-4f81-a199-35a4f1d7744e",
+      "server": "194.58.43.245",
+      "server_port": 2089,
+      "uuid": "d144d943-46bd-41ce-af2c-06358c845616",
       "transport": {
         "type": "grpc",
         "service_name": "vless"
@@ -68,7 +16,18 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 04 - xiaohe",
+      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
+      "server": "153.76.185.144",
+      "server_port": 3090,
+      "uuid": "a9a813b7-13ea-45f4-b8de-922b9bdd2db2",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 03 - xiaohe",
       "server": "95.85.230.35",
       "server_port": 443,
       "uuid": "bbfd1f68-ec64-452f-8404-9e2bcf1df951",
@@ -78,7 +37,7 @@
         "server_name": "de.oblaco.bet",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -94,8 +53,7 @@
         "auto",
         "🇨🇿 捷克 (Czech) 01 - xiaohe",
         "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇨🇿 捷克 (Czech) 03 - xiaohe",
-        "🇨🇿 捷克 (Czech) 04 - xiaohe"
+        "🇨🇿 捷克 (Czech) 03 - xiaohe"
       ]
     },
     {
@@ -104,8 +62,7 @@
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - xiaohe",
         "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇨🇿 捷克 (Czech) 03 - xiaohe",
-        "🇨🇿 捷克 (Czech) 04 - xiaohe"
+        "🇨🇿 捷克 (Czech) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
