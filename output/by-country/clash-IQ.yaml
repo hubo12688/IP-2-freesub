@@ -5,11 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 81.90.25.152
-  port: 34302
+  server: 185.255.179.11
+  port: 9443
   udp: true
   type: vless
-  uuid: e9a7f2c2-51bd-4a81-de35-26b369e2585b
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  tls: true
+  servername: hub-de-03.hanvpn.cc
+  skip-cert-verify: false
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /de03-ws-8e47a
+    headers:
+      Host: hub-de-03.hanvpn.cc
 proxy-groups:
 - name: PROXIES
   type: select
