@@ -6,6 +6,94 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.18.15.103",
+      "server_port": 443,
+      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
+      "tls": {
+        "enabled": true,
+        "server_name": "server9.9966338.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/imnotarealherox",
+        "headers": {
+          "Host": "server9.9966338.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
+      "server": "172.67.210.53",
+      "server_port": 443,
+      "uuid": "7700ff6d-cefb-4768-a806-ec4f63fe3b38",
+      "tls": {
+        "enabled": true,
+        "server_name": "0-m13.38c4495b-7e6d-4aaa-8a0a-3139ff704e1f.kdns.fr",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ED3ZQPu7lqyeDGD58KabZ",
+        "headers": {
+          "Host": "0-m13.38c4495b-7e6d-4aaa-8a0a-3139ff704e1f.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
+      "server": "172.67.210.53",
+      "server_port": 443,
+      "uuid": "7700ff6d-cefb-4768-a806-ec4f63fe3b38",
+      "tls": {
+        "enabled": true,
+        "server_name": "0-M13.38c4495B-7E6D-4AAa-8a0A-3139ff704e1F.KDns.Fr",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ED3ZQPu7lqyeDGD58KabZ",
+        "headers": {
+          "Host": "0-M13.38c4495b-7E6d-4aAa-8A0a-3139FF704E1F.kDNs.fR"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
+      "server": "172.67.210.53",
+      "server_port": 443,
+      "uuid": "7700ff6d-cefb-4768-a806-ec4f63fe3b38",
+      "tls": {
+        "enabled": true,
+        "server_name": "3-m13.38c4495b-7e6d-4aaa-8a0a-3139ff704e1f.kdns.fr",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ED3ZQPu7lqyeDGD58KabZ",
+        "headers": {
+          "Host": "3-m13.38c4495b-7e6d-4aaa-8a0a-3139ff704e1f.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
       "server": "104.21.3.219",
       "server_port": 443,
       "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
@@ -28,7 +116,7 @@
     },
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
       "server": "104.21.3.219",
       "server_port": 443,
       "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
@@ -57,7 +145,11 @@
       "outbounds": [
         "auto",
         "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 02 - xiaohe",
+        "🌐 其他地区 (Other) 03 - xiaohe",
+        "🌐 其他地区 (Other) 04 - xiaohe",
+        "🌐 其他地区 (Other) 05 - xiaohe",
+        "🌐 其他地区 (Other) 06 - xiaohe"
       ]
     },
     {
@@ -65,7 +157,11 @@
       "tag": "auto",
       "outbounds": [
         "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 02 - xiaohe",
+        "🌐 其他地区 (Other) 03 - xiaohe",
+        "🌐 其他地区 (Other) 04 - xiaohe",
+        "🌐 其他地区 (Other) 05 - xiaohe",
+        "🌐 其他地区 (Other) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
