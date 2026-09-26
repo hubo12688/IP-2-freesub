@@ -39,35 +39,13 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇲🇩 摩尔多瓦 (Moldova) 04 - xiaohe",
-      "server": "94.103.2.224",
-      "server_port": 50445,
-      "uuid": "29ea8cd9-300e-4ab7-a261-75533d86f58d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.icloud.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ",
-          "short_id": ""
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe",
         "🇲🇩 摩尔多瓦 (Moldova) 02 - xiaohe",
-        "🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe",
-        "🇲🇩 摩尔多瓦 (Moldova) 04 - xiaohe"
+        "🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe"
       ]
     },
     {
@@ -76,8 +54,7 @@
       "outbounds": [
         "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe",
         "🇲🇩 摩尔多瓦 (Moldova) 02 - xiaohe",
-        "🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe",
-        "🇲🇩 摩尔多瓦 (Moldova) 04 - xiaohe"
+        "🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

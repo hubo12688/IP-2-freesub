@@ -32,18 +32,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vless-test
-- name: 🇲🇩 摩尔多瓦 (Moldova) 04 - xiaohe
-  server: 94.103.2.224
-  port: 50445
-  udp: true
-  type: vless
-  uuid: 29ea8cd9-300e-4ab7-a261-75533d86f58d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
-  servername: www.icloud.com
-  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
@@ -52,7 +40,6 @@ proxy-groups:
   - 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
   - 🇲🇩 摩尔多瓦 (Moldova) 02 - xiaohe
   - 🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -61,6 +48,5 @@ proxy-groups:
   - 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
   - 🇲🇩 摩尔多瓦 (Moldova) 02 - xiaohe
   - 🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 04 - xiaohe
 rules:
 - MATCH,PROXIES
