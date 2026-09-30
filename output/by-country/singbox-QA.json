@@ -5,24 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.67.134.170",
+      "tag": "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe",
+      "server": "34.18.161.225",
       "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-635698a6bb9c",
+      "uuid": "b6f775c2-70fd-4247-8d12-82cac46fdd50",
       "tls": {
         "enabled": true,
-        "server_name": "jdzit4e4urks.xwzohsebujps.workers.dev",
-        "insecure": false,
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/635698a6bb9c/loc-0",
-        "headers": {
-          "Host": "jdzit4e4urks.xwzohsebujps.workers.dev"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "tT6wEOh8ASizQYNRb51QdDlxAksSJbEaBnbQBajc6SQ",
+          "short_id": "c5426331173ca15c"
         }
       }
     },
@@ -31,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
