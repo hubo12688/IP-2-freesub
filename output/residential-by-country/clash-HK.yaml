@@ -5,6 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
+  server: 66133e3a-tmm5c0-tmg311-141tv.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+  sni: 66133e3a-tmm5c0-tmg311-141tv.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+  sni: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
   server: 218.250.216.236
   port: 443
   udp: true
@@ -15,14 +31,14 @@ proxies:
     public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
   servername: download.windowsupdate.com
   client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
-  server: bff4b219-tmkao0-tnnrly-g43g.hk3.hyhuawei.com
-  port: 443
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - xiaohe
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16115
   udp: true
-  type: hysteria2
-  password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
-  sni: bff4b219-tmkao0-tnnrly-g43g.hk3.hyhuawei.com
-  skip-cert-verify: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
@@ -30,6 +46,8 @@ proxy-groups:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -37,5 +55,7 @@ proxy-groups:
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - xiaohe
 rules:
 - MATCH,PROXIES
