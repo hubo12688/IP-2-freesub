@@ -5,62 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - xiaohe
-  server: 104.21.70.21
-  port: 443
+  server: 188.114.97.1
+  port: 2053
   udp: true
   type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  uuid: 0b3e7958-e5c4-498f-ab21-b49686f95d2d
   tls: true
-  servername: nautica-cff.kloningstrife002.workers.dev
+  servername: bold-term-4edd.mbigspot.workers.dev
   skip-cert-verify: false
-  client-fingerprint: random
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /138.2.74.219-28616
+    path: /
     headers:
-      Host: nautica-cff.kloningstrife002.workers.dev
+      Host: bold-term-4edd.mbigspot.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 02 - xiaohe
-  server: 57.129.130.57
-  port: 52014
-  udp: true
-  type: vless
-  uuid: ab2dbc84-6f84-4f66-abcb-bd8b16068100
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 03 - xiaohe
-  server: 57.129.130.57
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 82fc8761-470b-4022-89da-ce5412e8bb0a
-  tls: true
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 04 - xiaohe
-  server: 47.237.74.17
-  port: 16263
-  udp: true
-  type: vless
-  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
-- name: 🇸🇬 新加坡 (Singapore) 05 - xiaohe
   server: 68.183.235.122
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 06 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 03 - xiaohe
+  server: 68.183.227.236
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 04 - xiaohe
   server: 149.88.23.202
   port: 18000
   udp: true
@@ -68,7 +41,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 07 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 05 - xiaohe
   server: 149.88.23.207
   port: 18000
   udp: true
@@ -76,23 +49,127 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 08 - xiaohe
-  server: 185.125.103.62
-  port: 8082
+- name: 🇸🇬 新加坡 (Singapore) 06 - xiaohe
+  server: 68.183.227.45
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 07 - xiaohe
+  server: 5.223.41.125
+  port: 80
   udp: true
   type: vless
-  uuid: bb6404b4-94c4-4631-ba20-348dc94b4f6d
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: random
+  uuid: 3b821031-d7d4-4368-918b-15f2312dba2b
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
+    path: /
+- name: 🇸🇬 新加坡 (Singapore) 08 - xiaohe
+  server: 5.223.41.51
+  port: 80
+  udp: true
+  type: vless
+  uuid: 80c38933-9747-443d-9d87-15c80f8663ea
+  network: ws
+  ws-opts:
+    path: /
 - name: 🇸🇬 新加坡 (Singapore) 09 - xiaohe
-  server: 104.16.156.227
+  server: 5.223.41.93
+  port: 80
+  udp: true
+  type: vless
+  uuid: f2eada1b-fdec-48c6-8638-18ade32993d4
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇸🇬 新加坡 (Singapore) 10 - xiaohe
+  server: 68.183.227.4
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 11 - xiaohe
+  server: 5.223.41.164
+  port: 80
+  udp: true
+  type: vless
+  uuid: ef24e9b9-e7b2-4e01-b335-f289612d2d7a
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇸🇬 新加坡 (Singapore) 12 - xiaohe
+  server: 8c9068e7-tmm5c0-trdynx-1rk9y.sg7.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+  sni: 8c9068e7-tmm5c0-trdynx-1rk9y.sg7.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 13 - xiaohe
+  server: 5.223.41.121
+  port: 80
+  udp: true
+  type: vless
+  uuid: 0f7996b1-3ef7-4274-b612-0310270d2a41
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇸🇬 新加坡 (Singapore) 14 - xiaohe
+  server: 206.206.78.36
+  port: 443
+  udp: true
+  type: vless
+  uuid: e3f0c894-0f76-4683-a751-6a93da8fd14d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ
+    short-id: 133a3f10a1581047
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 15 - xiaohe
+  server: 138.2.89.249
+  port: 443
+  udp: true
+  type: hysteria2
+  password: d042d150716709bb778cc73889cddb02
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+- name: 🇸🇬 新加坡 (Singapore) 16 - xiaohe
+  server: 128.199.172.224
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 17 - xiaohe
+  server: 146.235.16.130
+  port: 19825
+  udp: true
+  type: vless
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  servername: sg2-8sb.6121999.dpdns.org
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 18 - xiaohe
+  server: 5.223.41.179
+  port: 80
+  udp: true
+  type: vless
+  uuid: ff642d7a-9a24-4078-a031-f8c656f4554e
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇸🇬 新加坡 (Singapore) 19 - xiaohe
+  server: 104.21.5.75
   port: 443
   udp: true
   type: vless
@@ -106,152 +183,7 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 10 - xiaohe
-  server: 5.223.41.93
-  port: 80
-  udp: true
-  type: vless
-  uuid: f2eada1b-fdec-48c6-8638-18ade32993d4
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇸🇬 新加坡 (Singapore) 11 - xiaohe
-  server: 5.223.41.121
-  port: 80
-  udp: true
-  type: vless
-  uuid: 0f7996b1-3ef7-4274-b612-0310270d2a41
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇸🇬 新加坡 (Singapore) 12 - xiaohe
-  server: 68.183.227.45
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 13 - xiaohe
-  server: 5.223.41.179
-  port: 80
-  udp: true
-  type: vless
-  uuid: ff642d7a-9a24-4078-a031-f8c656f4554e
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇸🇬 新加坡 (Singapore) 14 - xiaohe
-  server: 68.183.227.4
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 15 - xiaohe
-  server: 5.223.41.51
-  port: 80
-  udp: true
-  type: vless
-  uuid: 80c38933-9747-443d-9d87-15c80f8663ea
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇸🇬 新加坡 (Singapore) 16 - xiaohe
-  server: 103.106.229.236
-  port: 443
-  udp: true
-  type: vless
-  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
-  tls: true
-  reality-opts:
-    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
-  servername: sg.monkora.org
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 17 - xiaohe
-  server: 68.183.227.236
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 18 - xiaohe
-  server: 5.223.41.164
-  port: 80
-  udp: true
-  type: vless
-  uuid: ef24e9b9-e7b2-4e01-b335-f289612d2d7a
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇸🇬 新加坡 (Singapore) 19 - xiaohe
-  server: 146.235.16.130
-  port: 19825
-  udp: true
-  type: vless
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-    short-id: 6ba85179e30d4fc2
-  servername: sg2-8sb.6121999.dpdns.org
-  client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 20 - xiaohe
-  server: 128.199.172.224
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 21 - xiaohe
-  server: ec11408c-tmm5c0-ttyyk7-1h0r9.sg7.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
-  sni: ec11408c-tmm5c0-ttyyk7-1h0r9.sg7.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 22 - xiaohe
-  server: 206.206.78.36
-  port: 443
-  udp: true
-  type: vless
-  uuid: e3f0c894-0f76-4683-a751-6a93da8fd14d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ
-    short-id: 133a3f10a1581047
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 23 - xiaohe
-  server: 138.2.89.249
-  port: 443
-  udp: true
-  type: hysteria2
-  password: d042d150716709bb778cc73889cddb02
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-- name: 🇸🇬 新加坡 (Singapore) 24 - xiaohe
-  server: 5.223.41.125
-  port: 80
-  udp: true
-  type: vless
-  uuid: 3b821031-d7d4-4368-918b-15f2312dba2b
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇸🇬 新加坡 (Singapore) 25 - xiaohe
-  server: vpn-sg-001.fastervpn.world
-  port: 443
-  udp: true
-  type: hysteria2
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-001.fastervpn.world
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 26 - xiaohe
   server: 3.0.111.82
   port: 10574
   udp: true
@@ -264,77 +196,33 @@ proxies:
     short-id: 48050fab
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 27 - xiaohe
-  server: 175.29.23.114
-  port: 443
+- name: 🇸🇬 新加坡 (Singapore) 21 - xiaohe
+  server: 3.0.111.82
+  port: 17623
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
   tls: true
-  servername: ju88t.ce8d.q6g.hh.ov0.kdns.fr
-  skip-cert-verify: false
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
   client-fingerprint: safari
-  network: ws
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-    headers:
-      Host: ju88t.ce8d.q6g.hh.ov0.kdns.fr
-- name: 🇸🇬 新加坡 (Singapore) 28 - xiaohe
-  server: 175.29.23.138
-  port: 443
+- name: 🇸🇬 新加坡 (Singapore) 22 - xiaohe
+  server: 54.169.200.246
+  port: 41688
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
+  flow: xtls-rprx-vision
   tls: true
-  servername: ju88t.ce8d.q6g.hh.ov0.kdns.fr
-  skip-cert-verify: false
+  reality-opts:
+    public-key: srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk
+    short-id: 7f342137c20387
+  servername: www.intel.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-    headers:
-      Host: ju88t.ce8d.q6g.hh.ov0.kdns.fr
-- name: 🇸🇬 新加坡 (Singapore) 29 - xiaohe
-  server: 103.213.4.57
-  port: 443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: ju88t.ce8d.q6g.hh.ov0.kdns.fr
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ju88t.ce8d.q6g.hh.ov0.kdns.fr
-- name: 🇸🇬 新加坡 (Singapore) 30 - xiaohe
-  server: 45.80.111.45
-  port: 8880
-  udp: true
-  type: vless
-  uuid: 5ffd914e-9594-4198-8327-145f096f8e4c
-  network: ws
-  ws-opts:
-    path: /cdn/assets/stream
-    headers:
-      Host: cnd.singapure.mygold.stream
-- name: 🇸🇬 新加坡 (Singapore) 31 - xiaohe
-  server: 175.29.23.179
-  port: 443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: ju88t.ce8d.q6g.hh.ov0.kdns.fr
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-    headers:
-      Host: ju88t.ce8d.q6g.hh.ov0.kdns.fr
-- name: 🇸🇬 新加坡 (Singapore) 32 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 23 - xiaohe
   server: 217.217.254.126
   port: 2053
   udp: true
@@ -345,8 +233,8 @@ proxies:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
     short-id: 87829de0e2bb82cb
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 33 - xiaohe
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 24 - xiaohe
   server: 173.234.14.105
   port: 59615
   udp: true
@@ -359,9 +247,9 @@ proxies:
     short-id: 6b
   servername: biosmod.partners.nvidia.com
   client-fingerprint: ios
-- name: 🇸🇬 新加坡 (Singapore) 34 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 25 - xiaohe
   server: 3.0.111.82
-  port: 17623
+  port: 12972
   udp: true
   type: vless
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
@@ -371,86 +259,8 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   servername: www.apple.com
-  client-fingerprint: edge
-- name: 🇸🇬 新加坡 (Singapore) 35 - xiaohe
-  server: 170.114.46.6
-  port: 80
-  udp: true
-  type: vless
-  uuid: a57223c7-3581-4fec-9bc4-ad5c30900efb
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 36 - xiaohe
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: 7e622534-4a90-40ba-bb30-5cb5403be121
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 37 - xiaohe
-  server: 54.169.200.246
-  port: 41688
-  udp: true
-  type: vless
-  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk
-    short-id: 7f342137c20387
-  servername: www.intel.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 38 - xiaohe
-  server: support.zoom.us
-  port: 80
-  udp: true
-  type: vless
-  uuid: a57223c7-3581-4fec-9bc4-ad5c30900efb
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 39 - xiaohe
-  server: 104.17.70.206
-  port: 2096
-  udp: true
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  tls: true
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 40 - xiaohe
-  server: 54.251.9.130
-  port: 24146
-  udp: true
-  type: vless
-  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
-    short-id: 7205d9079521832c
-  servername: www.intel.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 41 - xiaohe
+  client-fingerprint: ios
+- name: 🇸🇬 新加坡 (Singapore) 26 - xiaohe
   server: 141.193.213.21
   port: 8443
   udp: true
@@ -465,42 +275,71 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 42 - xiaohe
-  server: 3.0.111.82
-  port: 12972
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 43 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 27 - xiaohe
   server: 138.2.73.238
   port: 50160
   udp: true
   type: hysteria2
   password: f87376e17da040ed04c9665ce8972930
-  sni: 138.2.73.238
+  sni: www.bing.com
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 44 - xiaohe
-  server: 101.33.80.58
-  port: 8443
+- name: 🇸🇬 新加坡 (Singapore) 28 - xiaohe
+  server: 170.114.45.6
+  port: 80
   udp: true
   type: vless
-  uuid: 8344360f-0349-4784-a19f-33fd92e89389
-  tls: true
-  servername: api.w2m.ink
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  uuid: a57223c7-3581-4fec-9bc4-ad5c30900efb
   network: ws
   ws-opts:
-    path: /v2
+    path: /free-server.techsonic.dev
     headers:
-      Host: api.w2m.ink
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 29 - xiaohe
+  server: 46.137.202.178
+  port: 12512
+  udp: true
+  type: vless
+  uuid: 2a6c617d-98e4-49c3-95ab-76f02fcf0150
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA
+    short-id: e692a8250d2e2fd0
+  servername: www.intel.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 30 - xiaohe
+  server: free-server.techsonic.dev
+  port: 2096
+  udp: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  tls: true
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 31 - xiaohe
+  server: support.zoom.us
+  port: 80
+  udp: true
+  type: vless
+  uuid: a57223c7-3581-4fec-9bc4-ad5c30900efb
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 32 - xiaohe
+  server: 139.180.220.175
+  port: 8388
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: qpSevKaUXYQKvSjp
 proxy-groups:
 - name: PROXIES
   type: select
@@ -538,18 +377,6 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 30 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 31 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 32 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 33 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 34 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 35 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 36 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 37 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 38 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 39 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 40 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 41 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 42 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 43 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 44 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -587,17 +414,5 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 30 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 31 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 32 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 33 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 34 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 35 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 36 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 37 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 38 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 39 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 40 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 41 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 42 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 43 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 44 - xiaohe
 rules:
 - MATCH,PROXIES
