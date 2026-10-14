@@ -18,18 +18,13 @@ proxies:
   servername: gateway.icloud.com
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: czekkk.loknietotop.digital
-  port: 443
+  server: zfd-boardv2.kunlun01dns.com
+  port: 16280
   udp: true
-  type: vless
-  uuid: ace33fb8-c593-4b17-8f72-f3359b6e9638
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: WU5baXUzRH9BceiYI8MPBmDMEloTFImx2vvE5uh1yjM
-    short-id: f19e02a2fb573c18
-  servername: czekkk.loknietotop.digital
-  client-fingerprint: firefox
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
