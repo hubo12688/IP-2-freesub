@@ -24,7 +24,7 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
-  server: 162.249.125.133
+  server: hy2-new.aspidnet.xyz
   port: 443
   udp: true
   type: hysteria2
@@ -59,7 +59,7 @@ proxies:
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: 185.156.44.99
+  sni: google.com
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
