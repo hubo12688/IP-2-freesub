@@ -12,24 +12,12 @@
       "tls": {
         "enabled": true,
         "server_name": "connectwithemployerstohireyouridealteam.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-      "server": "13.55.52.44",
-      "server_port": 36712,
-      "password": "linlin-2026",
-      "tls": {
-        "enabled": true,
-        "server_name": "13.55.52.44",
-        "insecure": true
+        "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
       "server": "176.97.68.100",
       "server_port": 443,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
@@ -50,7 +38,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
       "server": "43.255.157.53",
       "server_port": 48158,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
@@ -76,8 +64,7 @@
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
       ]
     },
     {
@@ -86,8 +73,7 @@
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
