@@ -4,20 +4,33 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇿🇦 南非 (South Africa) 01 - xiaohe",
-      "server": "102.133.165.160",
-      "server_port": 16233,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+      "server": "102.134.35.197",
+      "server_port": 443,
+      "uuid": "122e2b61-6b68-4872-a1c8-3db9a0d554e0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ebay.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qOGwfAG_taSX01wGv1eq8cLkPHDSa-RNvp9iAw-8SDs",
+          "short_id": "4402f260a449cce9"
+        }
+      }
     },
     {
       "type": "shadowsocks",
       "tag": "🇿🇦 南非 (South Africa) 02 - xiaohe",
-      "server": "102.37.156.224",
-      "server_port": 443,
+      "server": "102.133.165.160",
+      "server_port": 16233,
       "method": "chacha20-ietf-poly1305",
-      "password": "aduB9HGxQHjA2SBMRjkHX6"
+      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
     },
     {
       "type": "trojan",
@@ -28,8 +41,20 @@
       "tls": {
         "enabled": true,
         "server_name": "explorecareerpathsandunlockprofessionalsuccesstoday.com",
-        "insecure": true
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇿🇦 南非 (South Africa) 04 - xiaohe",
+      "server": "102.37.156.224",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "aduB9HGxQHjA2SBMRjkHX6"
     },
     {
       "type": "selector",
@@ -38,7 +63,8 @@
         "auto",
         "🇿🇦 南非 (South Africa) 01 - xiaohe",
         "🇿🇦 南非 (South Africa) 02 - xiaohe",
-        "🇿🇦 南非 (South Africa) 03 - xiaohe"
+        "🇿🇦 南非 (South Africa) 03 - xiaohe",
+        "🇿🇦 南非 (South Africa) 04 - xiaohe"
       ]
     },
     {
@@ -47,7 +73,8 @@
       "outbounds": [
         "🇿🇦 南非 (South Africa) 01 - xiaohe",
         "🇿🇦 南非 (South Africa) 02 - xiaohe",
-        "🇿🇦 南非 (South Africa) 03 - xiaohe"
+        "🇿🇦 南非 (South Africa) 03 - xiaohe",
+        "🇿🇦 南非 (South Africa) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,28 +4,25 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe",
-      "server": "193.57.88.100",
-      "server_port": 16200,
-      "password": "4mq9w5ckqw3ewbdg",
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "172.67.139.189",
+      "server_port": 443,
+      "uuid": "43BCAE0A-10A6-4003-8615-BD510F4215BA",
       "tls": {
         "enabled": true,
-        "server_name": "staticxfastline.taymaztest.ir",
+        "server_name": "fr-free.fastestrelay.com",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/biyasd",
+        "path": "/700gvl-us-free",
         "headers": {
-          "Host": "staticxfastline.taymaztest.ir"
+          "Host": "fr-free.fastestrelay.com"
         }
       }
     },
@@ -34,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
